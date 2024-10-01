@@ -1,6 +1,6 @@
 # Multilingual Question and Answering System using BERT
 
-This project focuses on building a **multilingual Question and Answering (Q&A) system** using **BERT (Bidirectional Encoder Representations from Transformers)**, fine-tuned on a custom dataset of **Bangla newspaper articles**. The chatbot allows users to ask questions in **English** while retrieving answers from **Bangla articles** and providing responses in English. The system is designed to work efficiently even with large-scale datasets and is implemented in a **Kaggle environment**.
+This project focuses on building a **multilingual Question and Answering (Q&A) system** using **BERT (Bidirectional Encoder Representations from Transformers)**, fine-tuned on a custom dataset of **Bangla newspaper articles**. The system is designed to work efficiently even with large-scale datasets and is implemented in a **Kaggle environment**.
 
 ---
 
