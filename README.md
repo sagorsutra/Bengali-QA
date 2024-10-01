@@ -1,42 +1,44 @@
-# Bangla-English Q&A Chatbot using BERT
+# 🚀 Project Highlights
 
-This project focuses on building a **multilingual Question and Answering (Q&A) system** using *BERT (Bidirectional Encoder Representations from Transformers)*, fine-tuned on a custom dataset of **Bangla newspaper articles**.
+### **Multilingual BERT Model**  
+Utilizes `bert-base-multilingual-cased`, a pre-trained model capable of understanding and processing both **Bangla** and **English**. It is ideal for tasks requiring comprehension of Bangla text while supporting queries in English.
 
----
+### **Contextual Q&A**  
+The chatbot extracts answers from Bangla news articles by identifying relevant spans of text and returning meaningful answers to user queries in English. The model is trained to handle both brief and descriptive responses depending on the question.
 
-## 🚀 Project Highlights
+### **Fine-Tuning on Bangla News Dataset**  
+The model is fine-tuned on a dataset of articles from a **Bangla newspaper**, with **10%** of the data used for training. The dataset includes:
+- **Text:** Bangla news articles
+- **Date:** Publication date
+- **Timestamp:** Exact time of publication
 
-- **Multilingual BERT Model**  
-  Utilizes `bert-base-multilingual-cased`, a pre-trained model capable of understanding both **Bangla** and **English**.
-
-- **Contextual Q&A**  
-  The chatbot extracts answers from Bangla news articles and provides responses in English.
-
----
-
-## 🔑 Key Features
-
-1. **Multilingual Capabilities**  
-   Supports **English queries** while retrieving answers from **Bangla texts** using mBERT.
-   
-2. **Data Preprocessing**  
-   Efficiently processes large **Bangla text datasets**.
+### **Kaggle Notebook Implementation**  
+The project is implemented in a **Kaggle notebook**, leveraging the large dataset for training, testing, and deploying the chatbot.
 
 ---
 
-### Technologies Used
+# 🔑 Key Features
 
-- *Python* (Kaggle Notebook)
-- **Hugging Face Transformers**
-- **PyTorch**
+### **Multilingual Capabilities**  
+Supports **English queries** while retrieving answers from **Bangla texts** using mBERT.
+
+### **Data Preprocessing**  
+Efficiently tokenizes and processes large **Bangla text datasets**, preparing them for fine-tuning BERT.
+
+### **Q&A System**  
+Fine-tuned to provide **context-aware answers**, capable of understanding the structure of both questions and the corresponding text passages.
+
+### **Scalable**  
+Designed to handle large datasets. Although **10%** of the data is used for demonstration, the system can be scaled up for larger implementations.
+
+### **Flexible Answer Length**  
+The chatbot can provide **concise** or **detailed responses** based on the complexity of the question.
 
 ---
 
-## 🛠️ Steps to Reproduce
+# 🛠️ Steps to Reproduce
 
-1. **Clone the repository**.
-2. **Load your dataset** in Parquet format.
-3. **Follow the steps** outlined in the notebook.
-
----
-
+### **Environment Setup**  
+Install the necessary libraries (`transformers`, `torch`, `pandas`) in the Kaggle environment:
+```bash
+!pip install transformers torch pandas
