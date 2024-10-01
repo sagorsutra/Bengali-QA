@@ -4,14 +4,6 @@ This project focuses on building a **multilingual Question and Answering (Q&A) s
 
 ---
 
-## 🚀 Project Highlights
-
-### **Multilingual BERT Model**  
-Utilizes `bert-base-multilingual-cased`, a pre-trained model capable of understanding and processing both **Bangla** and **English**. It is ideal for tasks requiring comprehension of Bangla text while supporting queries in English.
-
-### **Contextual Q&A**  
-The chatbot extracts answers from Bangla news
-
 
 # 🚀 Project Highlights
 
